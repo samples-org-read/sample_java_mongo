@@ -13,3 +13,6 @@ script:
 notifications:
   email: false
 
+branches:
+  only:
+    - only-test
