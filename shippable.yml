@@ -4,6 +4,7 @@ jdk:
    - oraclejdk7
    - openjdk6
    - openjdk7
+
 services:
    - mongodb
    
@@ -17,3 +18,5 @@ branches:
   only:
     - only-test
     - master
+
+archive: true
