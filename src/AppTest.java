@@ -9,7 +9,7 @@ public class AppTest extends TestCase {
     // put common setup code in here
     try {
       App app = new App();
-      app.insertData("Seattle", "WA");
+      app.insertData("Seaattle", "WA");
     } catch (Exception e) {
       System.out.println("Error setting up database for test");
     } 
